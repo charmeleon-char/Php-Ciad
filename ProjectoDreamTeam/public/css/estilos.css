@@ -1,0 +1,188 @@
+/*Pagina de Expediente
+ *Pagina de Recetas
+ *Pagina de Resumen Clinico
+ *Pagina de Citas*/
+
+body{
+    background-image: url('../img/fondo.png');
+    background-repeat: no-repeat;
+}
+
+.menu{
+    top: 0.1em;
+    background-color: #0088CB;
+    list-style: none;
+    margin: 0em 0em;
+    padding: 0em;
+    text-align: center;
+    z-index: 1;
+    position: relative;   
+}
+
+.menu ul{
+    padding: 0em;
+    margin: 0em;
+}
+
+.menu li{
+    display:inline-block;
+    padding:0em;
+    margin:0em;
+    font-family: Helvetica;
+    font-size: 0.85em;
+}
+
+.menu li a{
+    display: inline-block;
+    padding: 1.5em 2em;
+    color: white;
+    text-align: right;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    background-color: #37BDBF;
+    text-decoration: blink;
+    color: white;
+}
+
+.contenedor{
+    margin-top: -0.5em;
+    margin-left: 3.125em;
+    margin-right: 3.125em;
+    margin-bottom: 1em;
+    padding-bottom: 8.625em;
+    background-image: url('../img/rect.png');
+}
+
+
+h1{
+   text-align: left;
+   margin-left: 5.625em;
+   margin-top: 0.125em;
+   font-weight: bold;
+}
+
+.datos input{
+   width: 3em;
+   float: left;
+   margin-left: 0.01em;
+}
+
+.datos label{
+   width: 5em;
+   float: left;
+   margin-left: 2em;
+   margin-left: 5.625em;
+}
+
+.form{
+    margin-left: 3.125em;
+}
+
+.form td, .form tr{
+    top: 0.12em;
+    width: 21.875em;
+    border: 0.01em solid white;
+    background-image: url('../img/fondo2.jpg');
+    padding: 0.625em;
+    box-shadow: 0.125em 0.125em 0.3125em #999;
+}
+
+.form label{
+    width: 9em;
+    float: left;
+    margin-left: 0px;
+    font-weight: 200;
+}
+
+label{
+  width: 2em;
+  float: left;
+  margin-left: 5.625em;    
+}
+
+.boton{
+    border-radius: 0.0625em;
+    background-color: pink;
+}
+
+.form2{
+    margin-left: 30em;
+    margin-top: -21.5em;
+}
+
+.form2 tr, .form2 td{
+    width: 21.875em;
+    border: 0.01em solid white;
+    background-image: url('../img/fondo2.jpg');
+    padding: 0.625em;
+    box-shadow: 0.125em 0.125em 0.3125em #999;
+}
+
+.form2 label{
+    width: 10em;
+    float: left;
+    margin-left: 0px;
+}
+
+#fecha{
+    margin-left: 3.5em;
+    color: white;
+    font-weight: 500;
+}
+
+#fech{
+    position: relative;
+    left: 2em;
+}
+
+.barrafinal{
+    position: relative;
+    margin-left: 0;
+    float: left;
+    top: 8.8em;
+    width: 100%;
+    height: 150px;
+    background-color: #37BDBF;   
+}
+
+.barrafinal p {
+   text-align: center;
+   color: white;
+   font-size: 1.3em;
+}
+
+.boxfacebook{
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-image: url("../img/Facebook.png");
+     background-size: cover;
+     height: 50px;
+     width: 50px;
+     margin: 25px auto ;
+     left: 30em;
+    position: relative;
+    display: inline-block;
+}
+
+
+
+.boxtwitter{
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-image: url("../img/Twitter.png");
+     background-size: cover;
+     height: 50px;
+     width: 50px;
+     margin: 22px auto;
+    position: relative;
+    display: inline-block;
+    left: 35em;
+}
+
+
+
+

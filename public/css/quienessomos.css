@@ -1,0 +1,37 @@
+
+
+
+.box2{
+    background-color: white;
+    height: 1000px;
+    width: 1120px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.boxquienessomos{
+    background-color: #37BDBF;
+    height: 250px;
+    width: 1075px;
+    margin: 48px 0px 0px 22px;
+    position: relative;
+}
+
+.boxfilosofia{
+    background-color: #8A5CE6;
+    height: 250px;
+    width: 1075px;
+    margin: 48px 0px 0px 22px;
+    position: relative;
+}
+.boxmision{
+    background-color: #37BDBF;
+    height: 350px;
+    width: 1075px;
+    margin: 48px 0px 0px 22px;
+    position: relative;
+}
+
+
+

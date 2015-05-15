@@ -1,0 +1,196 @@
+body{
+    background-image: url('../img/fondo.png');
+     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+.menu{
+    top: 0.1em;
+    background-color: #0088CB;
+    list-style: none;
+    margin: 0em 0em;
+    padding: 0em;
+    text-align: center;
+    z-index: 1;
+    position: relative;   
+}
+
+.menu ul{
+    padding: 0em;
+    margin: 0em;
+}
+
+.menu li{
+    display:inline-block;
+    padding:0em;
+    margin:0em;
+    font-family: Helvetica;
+    font-size: 0.85em;
+}
+
+.menu li a{
+    display: inline-block;
+    padding: 1.5em 2em;
+    color: white;
+    text-align: right;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    background-color: #37BDBF;
+    text-decoration: blink;
+    color: white;
+}
+
+#slider {
+    height: 280px;
+}
+#slider ul:before {
+    background: rgb(0,153,153); 
+    background: -moz-linear-gradient(left,  rgb(0,153,153) 0%, rgb(74,153,153) 66%, rgb(106,183,182) 86%, rgb(0,153,153) 99%); /* FF3.6+ */
+    background: linear-gradient(to right,  rgb(0,153,153) 0%,rgb(74,153,153) 66%,rgb(106,183,182) 86%,rgb(0,153,153) 99%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009999', endColorstr='#009999',GradientType=1 ); /* IE6-8 */
+    border-radius: 30px 0 0 30px;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.65);
+    content: "";
+    height: 100%;
+    margin-top: -40px;
+    position: absolute;
+    width: 280px;
+    z-index: 100;
+}
+#slider ul{
+    list-style: none outside none;
+    top: 100px;
+    margin-left: 300px;
+    margin-top: 10px;
+    padding: 40px 0;
+    position: relative;
+    width: 300px;
+}
+#slider ul li{
+    height: 40px;
+    width: 300px;
+}
+ 
+#slider ul li a.menudesplieg {
+    border-bottom: 1px solid #00CFCA;
+    color: white;
+    display: inline-block;
+    font-family: 'Trebuchet MS';
+    font-size: 1.6em;
+    font-style: italic;
+    letter-spacing: -1px;
+    padding-left: 80px;
+    position: absolute;
+    text-decoration: none;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    width: 200px;
+    z-index: 110;
+}
+#slider ul li div {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+    border-radius: 0 15px 15px 0;
+    color: white;
+    height: 266px;
+    left: 0;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0 15px 15px;
+    position: absolute;
+    top: 0;
+    transition: 1s left,1s width,1s opacity;
+    -webkit-transition: 1s left,1s width,1s opacity;
+    -moz-transition: 1s left,1s width,1s opacity;
+    -o-transition: 1s left,1s width,1s opacity;
+    width: 200px;
+    z-index: 50;
+}
+#slider ul li:hover div {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+    left: 182px;
+    opacity: 1;
+    width: 276px;
+}
+ 
+#slider ul li div h5 {
+    border-bottom: 1px solid #888;
+    color: #009999;
+    font-family: trebuchet ms;
+    font-size: 2.5em;
+    margin: 0 0 5px;
+    text-align: center;
+}
+#slider ul li div p {
+    font-family: trebuchet ms;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: normal;
+    overflow: hidden;
+    padding-top: 15px;
+    width: 276px;
+}
+
+.barrafinal{
+    position: relative;
+    margin-left: 0;
+    left: 0;
+    float: left;
+    top: 14em;
+    width:100%;
+    height: 150px;
+    background-color: #37BDBF;
+    
+}
+.barrafinal p {
+   text-align: center;
+   color: white;
+   font-size: 1.3em;
+}
+
+.decore table{
+     border-color:#3CB371;
+     text-align: center;
+     border: 1em;
+}
+
+.decore td tr {
+     text-decoration: none;
+     background-color:rgba(0, 0, 0, 0.65);
+     color: rgb(0,153,153);
+    
+}
+
+.boxfacebook{
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-image: url("../img/Facebook.png");
+     background-size: cover;
+     height: 50px;
+     width: 50px;
+     margin: 25px auto ;
+     left: 90em;
+    position: relative;
+    display: inline-block;
+}
+
+
+
+.boxtwitter{
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-image: url("../img/Twitter.png");
+     background-size: cover;
+     height: 50px;
+     width: 50px;
+     margin: 22px auto;
+    position: relative;
+    display: inline-block;
+    left: 97em;
+}
